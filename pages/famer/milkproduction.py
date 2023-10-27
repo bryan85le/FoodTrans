@@ -7,7 +7,7 @@ from components import Box
 
 register_page(
     __name__,
-    path = '/page2',
+    path = '/milkpro',
     title = 'Milk Production'
 )
 
