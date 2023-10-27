@@ -9,14 +9,9 @@ import plotly.graph_objs as go
 from dash import Input, Output, dcc, html, callback
 
 
-layout = html.Div(
-    [
-        dbc.Row(
-            [
-                dbc.Col(html.Div("General Health"), width=8),
-                dbc.Col(html.Div("262"), width=2),
-            ],justify="between",
-            ),
+layout = dbc.Container([
+    html.H3('General health'),
+    html.Hr(),
         dbc.Row(
             [
                 dbc.Col(html.Div("Mastitis"), width=8),
@@ -47,6 +42,4 @@ layout = html.Div(
                 dbc.Col(html.Div("15"), width=2),
             ],justify="between",
             ),
-    ]
-)
-
+])

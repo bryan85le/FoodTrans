@@ -9,8 +9,9 @@ import plotly.graph_objs as go
 from dash import Input, Output, dcc, html, callback
 
 
-layout = html.Div(
-    [
+layout = dbc.Container([
+    html.H3('Groups'),
+    html.Hr(),
         dbc.Row(
             [
                 dbc.Col(html.Div("Welfare alerts(in groups)"), width=8),
@@ -23,7 +24,6 @@ layout = html.Div(
                 dbc.Col(html.Div("0"), width=2),
             ],justify="between",
             ),
-        
-    ]
-)
+])
+
 

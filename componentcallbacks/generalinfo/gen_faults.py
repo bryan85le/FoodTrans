@@ -8,9 +8,9 @@ import numpy as np
 import plotly.graph_objs as go
 from dash import Input, Output, dcc, html, callback
 
-
-layout = html.Div(
-    [
+layout = dbc.Container([
+    html.H3('Faults today'),
+    html.Hr(),
         dbc.Row(
             [
                 dbc.Col(html.Div("Un-Assigned Tags"), width=8),
@@ -35,6 +35,7 @@ layout = html.Div(
                 dbc.Col(html.Div("1"), width=2),
             ],justify="between",
             ),
-    ]
-)
 
+
+
+])
