@@ -7,8 +7,8 @@ from components import Box
 
 register_page(
     __name__,
-    path = '/milkpro',
-    title = 'Milk Production'
+    path = '/herldview',
+    title = 'Herld Vierw'
 )
 
 
