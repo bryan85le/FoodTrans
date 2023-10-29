@@ -3,7 +3,7 @@ from dash_bootstrap_components import Container
 
 from dash import Input, Output, dcc, html, callback
 
-from componentcallbacks.generalinfo import (
+from componentcallbacks.hyperfarm import (
                                             gen_milkpro as gm,
                                             gen_animals_inventory as ga,
                                             gen_health as gh,
@@ -17,7 +17,7 @@ from componentcallbacks.generalinfo import (
 
 register_page(
     __name__,
-    path = '/dashcontent',
+    path = '/hyperfarm',
     title = 'Dash'
 )
 
