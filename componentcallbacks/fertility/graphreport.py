@@ -13,13 +13,15 @@ PAGE_SIZE = 10
 
 layout = dmc.Container(
     [
-        html.H4('Export'),
+        html.H4('No re'),
         dash_table.DataTable(
                     data.to_dict("records"),
                     [{"name": i, "id": i} for i in data.columns],
                     id='tbl',
                     page_current=0,
                     page_size=PAGE_SIZE,
+                    style_table={'overflowX': 'auto'},
+                    fixed_columns={'headers': True, 'data': 2},
                 ),
         dcc.Graph(id="graph"),
         dbc.Alert(id='tbl_out'),

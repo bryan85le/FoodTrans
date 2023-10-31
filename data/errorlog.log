@@ -1,0 +1,816 @@
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    df = px.data.gapminder() # replace with your own data source
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 44, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 44, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 44, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 44, in update_line_chart
+    rw = active_cell['row']
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
+    def update_line_chart(active_cell, page_current, page_size):
+TypeError: 'NoneType' object is not subscriptable
