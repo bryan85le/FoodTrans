@@ -8,23 +8,27 @@ import numpy as np
 
 
 data = px.data.gapminder()
-
-
+PAGE_SIZE = 10
 
 layout = dmc.Container(
     [
-        dcc.Graph(id="graph"),
-        dbc.Alert(id='tbl_out'),
-
+                dash_table.DataTable(
+                    data=data.to_dict("records"),
+                    columns=[{"name": i, "id": i} for i in data.columns],
+                    id='insemination-tbl',
+                    page_current=0,
+                    page_size=PAGE_SIZE,
+                    style_table={'overflowX': 'auto'},
+                    fixed_columns={'headers': True, 'data': 2},
+                ),
+                dbc.Alert(id='semi_tbl_out'),
     ],
     fluid=True,
 )
 
 
-
 @callback(
-    Output("graph", "figure"),
-    Output('tbl_out', 'children'),
+    Output('semi_tbl_out', 'children'),
     Input('tbl', 'active_cell'),
     Input('tbl', "page_current"),
     Input('tbl', "page_size")
@@ -38,6 +42,6 @@ def update_line_chart(active_cell, page_current, page_size):
     mask = df.continent.isin(cownum)
     fig = px.line(df[mask], 
         x="year", y="lifeExp", color='country')
-    return fig, cownum
+    return cownum
 
 
