@@ -7,8 +7,12 @@ from dash import (
     Dash,
     Input,
     Output,
+    State,
+    callback,
+    dcc,
+    html,
     no_update,
-    page_container
+    page_container,
 )
 from flask import Flask
 
@@ -16,14 +20,13 @@ from flask import Flask
 from components import (
     Dashboard,
     Drawer,
-    DrawerSingleItem,
-    DrawerMultiItem,
-    DrawerSubItem,
     DrawerFooter,
-    Navbar
+    DrawerMultiItem,
+    DrawerSingleItem,
+    DrawerSubItem,
+    Navbar,
 )
 from pages.login.login_auth import LoginAuth
-
 
 # Create server with secret key
 server = Flask(__name__)
@@ -83,6 +86,29 @@ nav_links = [
 ]
 
 
+# Create a global data excell
+import pandas as pd
+
+df = pd.read_csv('data/hyperFarm.csv')
+
+InitData = html.Div(
+    [
+        dcc.Store(id='global-data'),
+        html.Div(id="dump-inputdata")
+    ]
+)
+
+@callback(Output('global-data', 'data'),
+          State('global-data', 'data'),
+        Input('dump-inputdata', 'children'),
+        prevent_initial_call=False
+        )
+def filter_countries(data, dumpvar):
+    if data is None:
+        #raise PreventUpdate
+        return df.to_dict('records')
+    return data
+
 
 # Create Dashboard Layout
 app.layout = Dashboard(
@@ -96,7 +122,9 @@ app.layout = Dashboard(
         menu = nav_links,
         logo_name = 'Charlotte',
         logo_icon = 'heroicons:rocket-launch-20-solid'
-    )
+    ),
+    initialdata = InitData,
+
 )
 
 

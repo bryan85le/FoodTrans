@@ -1,14 +1,15 @@
 #https://www.afimilk.com/docs/documents/afifarm/anestrus%20report.htm?tocpath=_____5
-from dash import Input, Output, dcc, html, callback, register_page, dash_table
-import dash_mantine_components as dmc
-import dash_bootstrap_components as dbc
-import plotly.express as px
-import pandas as pd
+import collections
 
-from componentcallbacks.fertility import (
-                                            fertilitytable as fe,
-                                            graphreport as gr,
-                                            )
+import dash_bootstrap_components as dbc
+import dash_mantine_components as dmc
+import pandas as pd
+import plotly.express as px
+from dash import Input, Output, State, callback, dash_table, dcc, html, register_page
+from dash.exceptions import PreventUpdate
+
+from componentcallbacks.fertility import fertilityreport as fer
+from componentcallbacks.fertility import fertilitytable as fet
 
 register_page(
     __name__,
@@ -19,14 +20,13 @@ register_page(
 
 layout = html.Div(
     [
+
         dmc.Title('Anestrus Report'),
         dmc.Space(h=20),
-        fe.layout,
-        gr.layout,
+        fet.layout,
+        fer.layout,
+
     ]
 )
-
-
-
 
 

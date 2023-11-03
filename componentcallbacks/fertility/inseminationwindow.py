@@ -1,47 +1,54 @@
-#https://www.afimilk.com/docs/documents/afifarm/anestrus%20report.htm?tocpath=_____5
-from dash import Input, Output, dcc, html, callback, register_page, dash_table
-import dash_mantine_components as dmc
+# https://www.afimilk.com/docs/documents/afifarm/anestrus%20report.htm?tocpath=_____5
+from random import randint, seed
+from time import sleep
+
 import dash_bootstrap_components as dbc
-import plotly.express as px
-import pandas as pd
 import numpy as np
+import pandas as pd
+import plotly.express as px
+from dash import Dash, Input, Output, callback, dash_table, dcc, html
+from dash.exceptions import PreventUpdate
 
+# For the documentation to always render the same values
+seed(0)
+# data = data.loc[data['continent'] == 'Europe', ['country', 'year']]
 
-data = px.data.gapminder()
-PAGE_SIZE = 10
-
-layout = dmc.Container(
+layout = html.Div(
     [
-                dash_table.DataTable(
-                    data=data.to_dict("records"),
-                    columns=[{"name": i, "id": i} for i in data.columns],
-                    id='insemination-tbl',
-                    page_current=0,
-                    page_size=PAGE_SIZE,
-                    style_table={'overflowX': 'auto'},
-                    fixed_columns={'headers': True, 'data': 2},
-                ),
-                dbc.Alert(id='semi_tbl_out'),
-    ],
-    fluid=True,
+        "Choose property to load: ",
+        dcc.Dropdown(["style_cell", "data"], id="loading-states-table-prop"),
+        html.Br(),
+        dash_table.DataTable(id="loading-states-table"),
+        dbc.Alert(id="semi_tbl_out"),
+    ]
 )
 
 
+@callback(Output("loading-states-table", "style_cell"), Input("loading-states-table-prop", "value"))
+def loading_style_cell(value):
+    if value == "style_cell":
+        # sleep(5)
+        return {
+            "color": "rgb({}, {}, {})".format(randint(0, 255), randint(0, 255), randint(0, 255))
+        }
+    raise PreventUpdate
+
+
 @callback(
-    Output('semi_tbl_out', 'children'),
-    Input('tbl', 'active_cell'),
-    Input('tbl', "page_current"),
-    Input('tbl', "page_size")
-    )
-def update_line_chart(active_cell, page_current, page_size):
-    df = px.data.gapminder() # replace with your own data source
-    rw = active_cell['row']
-    row = page_current*page_size + rw
-    cownum = np.array([df.at[row,'continent']])
+    Output("loading-states-table", "data"),
+    Output("semi_tbl_out", "children"),
+    Input("loading-states-table-prop", "value"),
+    Input("tbl", "active_cell"),
+)
+def loading_data(value, active_cell):
+    if value == "data":
+        df = pd.read_csv("data/general.csv")
+        row = active_cell["row"]
+        cowid = np.array([df.at[row, "cowid"]])
 
-    mask = df.continent.isin(cownum)
-    fig = px.line(df[mask], 
-        x="year", y="lifeExp", color='country')
-    return cownum
+        mask = df.cowid.isin(cowid)
+        df = df[mask]
+        df = df.loc[:, "num_lact":"daily_avg_yeild"]
 
-
+        return df.to_dict("records"), cowid
+    raise PreventUpdate

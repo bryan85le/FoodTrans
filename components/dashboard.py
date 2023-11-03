@@ -5,7 +5,6 @@ from dash.development.base_component import Component
 from dash_bootstrap_components import Container
 
 
-
 class Dashboard(Container):
     """Container principal da aplicação.
 
@@ -36,6 +35,7 @@ class Dashboard(Container):
             children: Optional[Component] = None,
             navbar: Optional[Component] = None,
             drawer: Optional[Component] = None,
+            initialdata: Optional[Component] = None,
             id: str = 'dashboard'
         ):
 
@@ -50,9 +50,11 @@ class Dashboard(Container):
                 dcc.Location(id=f'{id}--location'),
                 dcc.Store(id=f'{id}--data'),
                 drawer,
+                initialdata,
                 html.Section(
                     className = 'home-section',
                     children = [navbar] + children
                 )
+                
             ]
         )
