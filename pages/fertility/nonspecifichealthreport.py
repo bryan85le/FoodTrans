@@ -6,12 +6,12 @@ import plotly.express as px
 from dash import Input, Output, State, callback, dash_table, dcc, html, register_page
 from dash.exceptions import PreventUpdate
 
-from componentcallbacks import Farmtoday
+from componentcallbacks import FertilityReport
 
 register_page(
     __name__,
-    path = '/farmtoday',
-    title = 'Farmer Today report'
+    path = '/none',
+    title = 'Non report'
 )
 
 
@@ -19,15 +19,18 @@ register_page(
 
 content = dmc.Title('I am here')
 
-layout = Farmtoday(
+layout = FertilityReport(
     children = content,
-    id = 'farm-report-test',
+    id = 'fertility-report-test',
+    className = 'fertility-css-test'
 )
 
 
-@callback(Output("farm-report-test", "data"), Input("global-data", "data"))
+@callback(Output("fertility-report-test", "data"), Input("global-data", "data"))
 def fereport(data):
     df = pd.DataFrame.from_dict(data)
+
     df = df.loc[:, "index":"group"]
+
 
     return df.to_dict("records")

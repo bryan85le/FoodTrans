@@ -2,8 +2,6 @@
 import logging
 from socket import gethostname
 
-import dash
-
 # Web stuff
 from dash import (
     Dash,
@@ -28,6 +26,7 @@ from components import (
     DrawerSubItem,
     Navbar,
 )
+from pages.login.login_auth import LoginAuth
 
 # Create server with secret key
 server = Flask(__name__)
@@ -42,6 +41,7 @@ app = Dash(
     use_pages=True,
     update_title="Updating...",
 )
+
 
 # Instanciate Error Handler
 file_handler = logging.FileHandler("data/errorlog.log")
