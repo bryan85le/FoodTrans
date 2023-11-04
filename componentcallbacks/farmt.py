@@ -26,13 +26,9 @@ class Farmtoday(Container):
 
     def __init__(
         self,
-        children: Optional[Component] = None,
         id: str = "farm-report",
         className: str = "farm-css",
     ):
-        if not isinstance(children, list):
-            children = [children]
-
         super().__init__(
             id=id,
             fluid=True,
@@ -41,7 +37,6 @@ class Farmtoday(Container):
         )
 
     # Creat layout variable
-
     milkls = dmc.Grid(
         children=[
             dmc.Col(
