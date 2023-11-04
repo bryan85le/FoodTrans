@@ -3,6 +3,7 @@ import logging
 from socket import gethostname
 
 # Web stuff
+import dash
 from dash import (
     Dash,
     Input,
