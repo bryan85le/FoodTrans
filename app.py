@@ -3,6 +3,8 @@
 import logging
 from socket import gethostname
 
+import dash
+
 # Web stuff
 from dash import (
     Dash,
@@ -16,9 +18,6 @@ from dash import (
     page_container,
 )
 from flask import Flask
-
-#import dash
-
 
 # Create server with secret key
 server = Flask(__name__)
