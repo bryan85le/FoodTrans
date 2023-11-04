@@ -29,26 +29,26 @@ from components import (
 from pages.login.login_auth import LoginAuth
 
 # Create server with secret key
-#server = Flask(__name__)
-#server.secret_key = 'SECRET_KEY'
+server = Flask(__name__)
+server.secret_key = 'SECRET_KEY'
 
 
 
 # Instanciate Dash app
 app = Dash(
     name = __name__,
-    #server = server,
+    server = server,
     title = 'NZ Hyper',
     use_pages = True,
     update_title = 'Updating...',
 )
-server = app.server
+
 
 
 # Instanciate Error Handler
 file_handler = logging.FileHandler('data/errorlog.log')
 file_handler.setLevel(logging.WARNING)
-#server.logger.addHandler(file_handler)
+server.logger.addHandler(file_handler)
 
 
 
