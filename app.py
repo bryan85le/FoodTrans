@@ -20,7 +20,15 @@ from dash import (
 from flask import Flask
 
 # Charlotte components
-from components import Dashboard
+from components import (
+    Dashboard,
+    Drawer,
+    DrawerFooter,
+    DrawerMultiItem,
+    DrawerSingleItem,
+    DrawerSubItem,
+    Navbar,
+)
 
 # Create server with secret key
 server = Flask(__name__)
