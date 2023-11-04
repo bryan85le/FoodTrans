@@ -99,11 +99,11 @@ InitData = html.Div(
 )
 
 @callback(Output('global-data', 'data'),
+          Input('dump-inputdata', 'children'),
           State('global-data', 'data'),
-        Input('dump-inputdata', 'children'),
         prevent_initial_call=False
         )
-def filter_countries(data, dumpvar):
+def filter_countries(_, data):
     if data is None:
         #raise PreventUpdate
         return df.to_dict('records')

@@ -1,4 +1,4 @@
-Index,days,cowid,cowname,status,group,cow_yeild,cow_sign,num_lact,num_Insem,age,DIM,daily_avg_yeild,dayafter_heat,dayafter_Insem,heat_signs_start,heat_sign_end,fertility_window_start,fertility_window_end,conception,heat_indicator1,heat_indicator2,heat_indicator3,dayafter_changegroup,dayafter_hooftrimming,dayafer_pregcheck,1recommendedbull_id,1recommendedbull_name,2recommendedbull_id,2recommendedbull_name,code
+index,days,cowid,cowname,status,group,cow_yeild,cow_sign,num_lact,num_Insem,age,DIM,daily_avg_yeild,dayafter_heat,dayafter_Insem,heat_signs_start,heat_sign_end,fertility_window_start,fertility_window_end,conception,heat_indicator1,heat_indicator2,heat_indicator3,dayafter_changegroup,dayafter_hooftrimming,dayafer_pregcheck,1recommendedbull_id,1recommendedbull_name,2recommendedbull_id,2recommendedbull_name,code
 0,0,cow1,Bella,Insemination,1,View,View,4,2,68.18,106,53.01,2,1,36,-,,,High CR,173,-,112,,,,,,,,"PR, RE, R1"
 1,1,cow2,Joee,Insemination,1,View,View,3,2,67.26,93,45.53,2,1,36,-,,,Modern CR,,,,,,,,,,,2 V
 2,2,cow3,Kathen,Insemination,1,View,View,4,3,66.47,199,53.01,2,1,36,-,,,Low CR,,,,,,,,,,,RE

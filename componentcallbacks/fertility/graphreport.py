@@ -10,7 +10,7 @@ from dash import Input, Output, State, callback, dash_table, dcc, html, register
 # df = pd.DataFrame(data)
 # df.to_csv('data/10days.csv')
 
-data = pd.read_csv("data/10days.csv")
+data = pd.read_csv("data/hyperfarm.csv")
 
 
 layout = dbc.Card(

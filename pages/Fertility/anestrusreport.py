@@ -24,7 +24,7 @@ layout = html.Div(
         dmc.Title('Anestrus Report'),
         dmc.Space(h=20),
         fet.layout,
-        fer.layout,
+        #fer.layout,
 
     ]
 )
