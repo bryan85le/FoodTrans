@@ -13,9 +13,7 @@ register_page(__name__, path="/farmtoday", title="Farmer Today report")
 
 layout = html.Div(
     [
-        Farmtoday(
-            id="farm-report-test",
-        )
+        Farmtoday(),
     ]
 )
 
