@@ -1,1 +1,0 @@
-#https://www.afimilk.com/docs/documents/afifarm/fresh%20cows%20to%20check.htm?tocpath=_____4
