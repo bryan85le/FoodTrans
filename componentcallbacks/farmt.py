@@ -39,7 +39,7 @@ class FarmToday(Container):
 
     # Create layout for Fertilityy Report
     def health_report(self) -> dbc.Card:
-        imagestyle = {"width": "12rem"}
+        imagestyle = {"width": "8rem"}
         return [
             dbc.Card(
                 [
