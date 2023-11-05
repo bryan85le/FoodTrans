@@ -71,7 +71,13 @@ import pandas as pd
 
 df = pd.read_csv("data/hyperFarm.csv")
 
-InitData = html.Div([dcc.Store(id="global-data"), html.Div(id="dump-inputdata")])
+InitData = html.Div(
+    [
+        dcc.Store(id="global-data"),
+        dcc.Interval(id="interval-component", interval=3 * 1000, n_intervals=0),  # in milliseconds
+        html.Div(id="dump-inputdata"),
+    ]
+)
 
 
 @callback(

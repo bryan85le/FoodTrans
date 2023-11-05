@@ -1,3 +1,4 @@
+import datetime
 import random
 import uuid
 from typing import Optional
@@ -64,8 +65,9 @@ class tlbContent(html.Div):
         Output(ids.title(MATCH), "children"),
         Output(ids.title(MATCH), "href"),
         Input("global-data", "data"),
+        Input("interval-component", "n_intervals"),
     )
-    def feeddata(data):
+    def feeddata(data, n):
         df = pd.DataFrame.from_dict(data)
         df = df.loc[:, "index":"group"]
         df.to_dict("records")
@@ -110,7 +112,7 @@ class Health(html.Div):
             ),
             dbc.Card(
                 [
-                    dbc.CardImg(src="/assets/img/log.svg", top=True),
+                    dbc.CardImg(src="/assets/img/register.svg", top=True),
                     dbc.CardBody(
                         [
                             html.H3("Health"),
