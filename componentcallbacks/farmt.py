@@ -6,7 +6,7 @@ from typing import Optional
 import dash_bootstrap_components as dbc
 import dash_mantine_components as dmc
 import pandas as pd
-from dash import MATCH, Input, Output, callback, dash_table, dcc, html
+from dash import MATCH, Input, Output, State, callback, dash_table, dcc, html
 from dash.development.base_component import Component
 from dash_bootstrap_components import Container
 
@@ -20,13 +20,19 @@ class tlbContent(html.Div):
 
     def __init__(
         self,
+        title: Optional[str] = None,
+        href: str = "#",
+        value: str = "",
         id: Optional[str] = None,
     ):
         id = id or str(uuid.uuid4())
+        href = href
+        title = title
+        value = value
 
-        super().__init__(id=id, children=self.show(id))
+        super().__init__(id=id, children=self.show(id, title, href))
 
-    def show(self, id) -> html.Div:
+    def show(self, id, title, href) -> html.Div:
         return [
             html.Div(
                 children=dmc.SimpleGrid(
@@ -35,7 +41,7 @@ class tlbContent(html.Div):
                         dbc.Col(
                             dmc.Stack(
                                 [
-                                    dmc.Anchor(href="", id=self.ids.title(id)),
+                                    dmc.Anchor(children=title, href=href, id=self.ids.title(id)),
                                 ],
                                 align="flex-start",
                                 justify="center",
@@ -62,17 +68,17 @@ class tlbContent(html.Div):
 
     @callback(
         Output(ids.value(MATCH), "value"),
-        Output(ids.title(MATCH), "children"),
         Output(ids.title(MATCH), "href"),
+        State(ids.title(MATCH), "href"),
         Input("global-data", "data"),
         Input("interval-component", "n_intervals"),
     )
-    def feeddata(data, n):
+    def feeddata(h, data, n):
         df = pd.DataFrame.from_dict(data)
         df = df.loc[:, "index":"group"]
         df.to_dict("records")
 
-        return random.randrange(50, 100, 5), "Milk Production", "/none"
+        return (random.randrange(50, 100, 5), h)
 
 
 class Health(html.Div):
@@ -104,7 +110,7 @@ class Health(html.Div):
                     dbc.CardBody(
                         [
                             html.H3("To do Today"),
-                            tlbContent(),
+                            tlbContent(title="Milk tests", href="/none"),
                         ]
                     ),
                 ],
@@ -116,7 +122,7 @@ class Health(html.Div):
                     dbc.CardBody(
                         [
                             html.H3("Health"),
-                            tlbContent(),
+                            tlbContent(title="health"),
                         ]
                     ),
                 ],

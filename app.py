@@ -74,7 +74,7 @@ df = pd.read_csv("data/hyperFarm.csv")
 InitData = html.Div(
     [
         dcc.Store(id="global-data"),
-        dcc.Interval(id="interval-component", interval=3 * 1000, n_intervals=0),  # in milliseconds
+        dcc.Interval(id="interval-component", interval=2 * 1000, n_intervals=0),  # in milliseconds
         html.Div(id="dump-inputdata"),
     ]
 )
