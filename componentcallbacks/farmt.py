@@ -75,6 +75,20 @@ class FarmToday(Container):
             ),
             dbc.Card(
                 [
+                    dbc.CardImg(src="/assets/img/fertility.jpg", top=True),
+                    dbc.CardBody(
+                        [
+                            html.H3("Fertility"),
+                            tlbContent(title="Animals for insection"),
+                            tlbContent(title="Suspected abortion"),
+                            tlbContent(title="Anestrus"),
+                        ]
+                    ),
+                ],
+                # style={"width": "20rem"},
+            ),
+            dbc.Card(
+                [
                     dbc.CardImg(src="/assets/img/register.svg", top=True),
                     dbc.CardBody(
                         [
