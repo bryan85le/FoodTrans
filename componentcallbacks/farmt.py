@@ -1,3 +1,5 @@
+import random
+import uuid
 from typing import Optional
 
 import dash_bootstrap_components as dbc
@@ -156,65 +158,57 @@ class Farmtoday(Container):
         return df.to_dict("records")
 
 
+class update(html.Div):
+    def __init__(
+        self,
+        id: Optional[str] = None,
+    ):
+        id = id or str(uuid.uuid4())
+
+        super().__init__(id=id, children=self.showvalue())
+
+    def showvalue(self) -> html.Div:
+        return [
+            html.Div(
+                children=dmc.SimpleGrid(
+                    cols=2,
+                    children=[
+                        dbc.Col(
+                            html.Div("Tittle"),
+                        ),
+                        dbc.Col(
+                            html.Div("Value"),
+                        ),
+                    ],
+                ),
+            )
+        ]
+
+
 class subcontent(dmc.Grid):
-    """Default box.
-
-    Parameters
-    ----------
-    children : Dash component | list of Dash components, optional
-        Main content of the box.
-    title : Dash component | list of Dash components, optional
-        Box title.
-    subtitle : Dash component | list of Dash components, optional
-        Box subtitle.
-    title_color : str, default='blue'
-        Title color.
-    title_style : dict[str, str], optional
-    icon : str, optional
-        Icon next to the title.
-    header_content : Dash component | list of Dash components, optional
-        Content on the upper right of the box.
-    style : dict[str, str], optional
-        Style of the box.
-    padding : float, default=10
-        Level of spacing between components.
-    id : str, optional
-        Component id.
-
-    Components IDs
-    --------------
-    {id}
-        Main content (children).
-    {id}--title
-        Title of the box.
-    {id}--subtitle
-        Subtitle of the box.
-    {id}--title-style
-        Style of the box title.
-    {id}--header-content
-        Content on the upper right of the box.
-
-    """
+    """Default box."""
 
     def __init__(
         self,
         id: str = "subcontent-id",
+        title: Optional[str] = None,
+        link: Optional[str] = None,
     ):
         super().__init__(
             id=id,
-            children=[self.title(), self.content()],
+            children=[self.title(title, link), self.content(id)],
         )
 
     # Create layout for Fertilityy Report
-    def title(self) -> html.Div:
+    def title(self, title, link) -> html.Div:
         return html.Div(
             [
                 dmc.Col(
                     dmc.Stack(
                         [
                             dmc.Anchor(
-                                "Milk last session",
-                                href="/none",
+                                children=title,
+                                href=link,
                             ),
                         ],
                         align="flex-start",
@@ -230,7 +224,7 @@ class subcontent(dmc.Grid):
         )
 
     # Create layout for Fertilityy Report
-    def content(self) -> html.Div:
+    def content(self, id) -> html.Div:
         return html.Div(
             [
                 dmc.Col(
@@ -240,6 +234,7 @@ class subcontent(dmc.Grid):
                                 style={"width": 70, "textAlign": "center"},
                                 placeholder="3.28%",
                                 disabled=True,
+                                id=f"{id}--value",
                             ),
                         ],
                         align="flex-start",
@@ -263,7 +258,7 @@ class subcontent(dmc.Grid):
         return df.to_dict("records")
 
 
-class Health(Container):
+class Health(html.Div):
     """Container report.
 
     Parameters
@@ -274,11 +269,12 @@ class Health(Container):
 
     def __init__(
         self,
-        id: str = "health-report",
+        id: Optional[str] = None,
     ):
+        id = id or str(uuid.uuid4())
+
         super().__init__(
             id=id,
-            fluid=True,
             children=self.health_report(),
         )
 
@@ -300,7 +296,8 @@ class Health(Container):
                 [
                     dbc.CardBody(
                         [
-                            subcontent(),
+                            # subcontent(title="Milk ddd", link="/none"),
+                            update(id="update-id")
                         ]
                     )
                 ]
