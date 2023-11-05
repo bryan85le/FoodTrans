@@ -250,7 +250,7 @@ class subcontent(dmc.Grid):
                         "border": f"1px solid {dmc.theme.DEFAULT_COLORS['indigo'][4]}",
                         # "textAlign": "center",
                     },
-                    offset=30,
+                    offset=10,
                 ),
             ]
         )
