@@ -1,2 +1,2 @@
-from .farmt import Farmtoday, Health
+from .farmt import Health
 from .fert import FertilityReport

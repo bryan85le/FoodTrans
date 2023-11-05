@@ -6,7 +6,7 @@ import plotly.express as px
 from dash import Input, Output, State, callback, dash_table, dcc, html, register_page
 from dash.exceptions import PreventUpdate
 
-from componentcallbacks import Farmtoday, Health
+from componentcallbacks import Health
 
 register_page(__name__, path="/farmtoday", title="Farmer Today report")
 
