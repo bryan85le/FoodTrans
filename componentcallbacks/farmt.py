@@ -165,19 +165,38 @@ class update(html.Div):
     ):
         id = id or str(uuid.uuid4())
 
-        super().__init__(id=id, children=self.showvalue())
+        super().__init__(id=id, children=self.show())
 
-    def showvalue(self) -> html.Div:
+    def show(self) -> html.Div:
         return [
             html.Div(
                 children=dmc.SimpleGrid(
                     cols=2,
                     children=[
                         dbc.Col(
-                            html.Div("Tittle"),
+                            dmc.Stack(
+                                [
+                                    dmc.Anchor(
+                                        "Milk last session",
+                                        href="/none",
+                                    ),
+                                ],
+                                align="flex-start",
+                                justify="center",
+                            )
                         ),
                         dbc.Col(
-                            html.Div("Value"),
+                            dmc.Stack(
+                                [
+                                    dmc.TextInput(
+                                        style={"width": 70, "textAlign": "center"},
+                                        placeholder="1284",
+                                        disabled=True,
+                                    ),
+                                ],
+                                align="flex-end",
+                                justify="center",
+                            )
                         ),
                     ],
                 ),
