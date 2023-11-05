@@ -97,7 +97,7 @@ def filter_countries(_, data):
 app.layout = Dashboard(
     children=page_container,
     id="dashboard",
-    navbar=Navbar(title="My Web App", id="dashboard-navbar"),
+    navbar=Navbar(title="HyperFarm Dashboard", id="dashboard-navbar"),
     drawer=Drawer(menu=nav_links, logo_name="Charlotte", logo_icon="heroicons:rocket-launch-20-solid"),
     initialdata=InitData,
 )
