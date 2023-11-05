@@ -73,12 +73,12 @@ class tlbContent(html.Div):
         Input("global-data", "data"),
         Input("interval-component", "n_intervals"),
     )
-    def feeddata(h, data, n):
+    def feeddata(href, data, _):
         df = pd.DataFrame.from_dict(data)
         df = df.loc[:, "index":"group"]
         df.to_dict("records")
 
-        return (random.randrange(50, 100, 5), h)
+        return (random.randrange(50, 100, 5), href)
 
 
 class Health(html.Div):
