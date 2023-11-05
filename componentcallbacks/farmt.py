@@ -39,10 +39,11 @@ class FarmToday(Container):
 
     # Create layout for Fertilityy Report
     def health_report(self) -> dbc.Card:
+        imagestyle = {"width": "12rem"}
         return [
             dbc.Card(
                 [
-                    dbc.CardImg(src="/assets/img/register.svg", top=True),
+                    dbc.CardImg(src="/assets/img/production_&_milk_quality.jpg", top=True, style=imagestyle),
                     dbc.CardBody(
                         [
                             html.H3("Milk Production"),
@@ -55,11 +56,14 @@ class FarmToday(Container):
                         ]
                     ),
                 ],
-                # style={"width": "20rem"},
             ),
             dbc.Card(
                 [
-                    dbc.CardImg(src="/assets/img/register.svg", top=True),
+                    dbc.CardImg(
+                        src="/assets/img/health.jpg",
+                        top=True,
+                        style=imagestyle,
+                    ),
                     dbc.CardBody(
                         [
                             html.H3("Health"),
@@ -71,11 +75,14 @@ class FarmToday(Container):
                         ]
                     ),
                 ],
-                # style={"width": "20rem"},
             ),
             dbc.Card(
                 [
-                    dbc.CardImg(src="/assets/img/fertility.jpg", top=True),
+                    dbc.CardImg(
+                        src="/assets/img/fertility.jpg",
+                        top=True,
+                        style=imagestyle,
+                    ),
                     dbc.CardBody(
                         [
                             html.H3("Fertility"),
@@ -85,11 +92,10 @@ class FarmToday(Container):
                         ]
                     ),
                 ],
-                # style={"width": "20rem"},
             ),
             dbc.Card(
                 [
-                    dbc.CardImg(src="/assets/img/register.svg", top=True),
+                    dbc.CardImg(src="/assets/img/group.jpg", top=True, style=imagestyle),
                     dbc.CardBody(
                         [
                             html.H3("Groups"),
@@ -102,7 +108,7 @@ class FarmToday(Container):
             ),
             dbc.Card(
                 [
-                    dbc.CardImg(src="/assets/img/register.svg", top=True),
+                    dbc.CardImg(src="/assets/img/labor_&_task_management.jpg", top=True, style=imagestyle),
                     dbc.CardBody(
                         [
                             html.H3("Todo to today"),
@@ -117,7 +123,7 @@ class FarmToday(Container):
             ),
             dbc.Card(
                 [
-                    dbc.CardImg(src="/assets/img/register.svg", top=True),
+                    dbc.CardImg(src="/assets/img/maintenance_&_troubleshooting.jpg", top=True, style=imagestyle),
                     dbc.CardBody(
                         [
                             html.H3("Faults today"),
@@ -132,7 +138,7 @@ class FarmToday(Container):
             ),
             dbc.Card(
                 [
-                    dbc.CardImg(src="/assets/img/register.svg", top=True),
+                    dbc.CardImg(src="/assets/img/milking_efficiency.jpg", top=True, style=imagestyle),
                     dbc.CardBody(
                         [
                             html.H3("Animals Invetory"),
@@ -140,15 +146,6 @@ class FarmToday(Container):
                             tlbContent(title="Pregnant Milk"),
                             tlbContent(title="Open"),
                             tlbContent(title="Dry"),
-                        ]
-                    ),
-                ],
-                # style={"width": "20rem"},
-            ),
-            dbc.Card(
-                [
-                    dbc.CardBody(
-                        [
                             dcc.Graph(figure=self.fig),
                         ]
                     ),
