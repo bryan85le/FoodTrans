@@ -13,7 +13,7 @@ from dash_bootstrap_components import Container
 from .functions import tlbContent
 
 
-class Fertility(Container):
+class Health(Container):
     """Container report.
 
     Parameters
@@ -44,6 +44,18 @@ class Fertility(Container):
                             html.H3("Milk Production"),
                             tlbContent(title="Milk last session"),
                             tlbContent(title="Milk previous day"),
+                        ]
+                    ),
+                ],
+                # style={"width": "20rem"},
+            ),
+            dbc.Card(
+                [
+                    dbc.CardImg(src="/assets/img/register.svg", top=True),
+                    dbc.CardBody(
+                        [
+                            html.H3("Health"),
+                            tlbContent(title="Mastitis"),
                         ]
                     ),
                 ],
