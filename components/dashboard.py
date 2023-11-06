@@ -31,30 +31,25 @@ class Dashboard(Container):
     """
 
     def __init__(
-            self,
-            children: Optional[Component] = None,
-            navbar: Optional[Component] = None,
-            drawer: Optional[Component] = None,
-            initialdata: Optional[Component] = None,
-            id: str = 'dashboard'
-        ):
-
+        self,
+        children: Optional[Component] = None,
+        navbar: Optional[Component] = None,
+        drawer: Optional[Component] = None,
+        initialdata: Optional[Component] = None,
+        id: str = "dashboard",
+    ):
         if not isinstance(children, list):
             children = [children]
 
         super().__init__(
-            id = id,
-            fluid = True,
-            className = 'dashboard-container shade7',
-            children = [
-                dcc.Location(id=f'{id}--location'),
-                dcc.Store(id=f'{id}--data'),
+            id=id,
+            fluid=True,
+            # className = 'dashboard-container shade7',
+            children=[
+                dcc.Location(id=f"{id}--location"),
+                dcc.Store(id=f"{id}--data"),
                 drawer,
                 initialdata,
-                html.Section(
-                    className = 'home-section',
-                    children = [navbar] + children
-                )
-                
-            ]
+                html.Section(className="home-section", children=[navbar] + children),
+            ],
         )

@@ -814,3 +814,207 @@ Traceback (most recent call last):
   File "C:\Users\leb\OneDrive - Lincoln University\6.1 Develop Instrument\Website Experiment\FoodTransition2050\NZHyper-transparency\myfold\componentcallbacks\fertility\graphreport.py", line 42, in update_line_chart
     def update_line_chart(active_cell, page_current, page_size):
 TypeError: 'NoneType' object is not subscriptable
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(),
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(),
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    ]
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    ]
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(children=value),
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(children=value),
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(),
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(),
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(),
+TypeError: Milkproduction.alert() missing 2 required positional arguments: 'self' and 'children'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(),
+TypeError: Milkproduction.alert() missing 1 required positional argument: 'self'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(),
+TypeError: Milkproduction.alert() missing 1 required positional argument: 'self'
+Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\dash.py", line 1310, in dispatch
+    ctx.run(
+  File "D:\FT2050\FoodTrans\venv\lib\site-packages\dash\_callback.py", line 442, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "D:\FT2050\FoodTrans\componentcallbacks\milkproduction.py", line 138, in html_show_drop
+    Milkproduction.alert(),
+TypeError: Milkproduction.alert() missing 1 required positional argument: 'self'

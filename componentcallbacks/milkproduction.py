@@ -44,8 +44,6 @@ class Milkproduction(Container):
     fig = px.pie(df, values="tip", names="day")
     PAGE_SIZE = 10
 
-    alerttest = dbc.Alert(id={"type": "table-alert_drop", "id": f"{id}"}, children="Helllo")
-
     def __init__(
         self,
         id: Optional[str] = None,
@@ -122,16 +120,22 @@ class Milkproduction(Container):
         return content
 
     # -----------------------------------------------------------------------------------
+
+    def alert(self) -> dbc.Alert:
+        return dbc.Alert(id={"type": "table-alert_drop", "id": f"{id}"}, children="THOI")
+
+    alerttest = dbc.Alert(id={"type": "table-alert_drop", "id": f"{id}"}, children="Helllo")
+
     @callback(
         Output({"type": "html-show-drop", "id": MATCH}, "children"),
         Input({"type": "table-dropdown", "id": MATCH}, "value"),
         prevent_initial_call=True,
     )
     def html_show_drop(active_cell):
+        value = "Hello"
         content = html.Div(
             [
-                # dbc.Alert(id={"type": "table-alert_drop", "id": f"{id}"}, children=str(active_cell)),
-                Milkproduction.alerttest,
+                Milkproduction.alert(),
             ]
         )
         return content
