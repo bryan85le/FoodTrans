@@ -44,6 +44,8 @@ class Milkproduction(Container):
     fig = px.pie(df, values="tip", names="day")
     PAGE_SIZE = 10
 
+    alerttest = dbc.Alert(id={"type": "table-alert_drop", "id": f"{id}"}, children="Helllo")
+
     def __init__(
         self,
         id: Optional[str] = None,
@@ -74,23 +76,24 @@ class Milkproduction(Container):
 
     @callback(Output("dynamic-dropdown-container-div", "children"), Input("global-data", "data"))
     def milklastsessiontable(data):
-        id = str(uuid.uuid4())
         df = pd.DataFrame.from_dict(data)
 
         df = df.loc[:, "index":"group"]
         df.to_dict("records")
 
         patched_children = Patch()
-        new_element = html.Div(
+        content = html.Div(
             [
-                dash_table.DataTable(id={"type": "table-content", "id": id}, data=df.to_dict("records")),
-                dbc.Alert(id={"type": "table-alert", "id": id}),
-                dcc.Dropdown(["Alert", "Graph"], id={"type": "table-dropdown", "id": id}),
-                dbc.Alert(id={"type": "table-alert_drop", "id": id}),
+                dash_table.DataTable(id={"type": "table-content", "id": f"{id}"}, data=df.to_dict("records")),
+                dbc.Alert(id={"type": "table-alert", "id": f"{id}"}),
+                html.Div(
+                    id={"type": "html-show", "id": f"{id}"},
+                    children=[],
+                ),
             ]
         )
 
-        patched_children.append(new_element)
+        patched_children.append(content)
         return patched_children
 
     @callback(
@@ -99,3 +102,36 @@ class Milkproduction(Container):
     )
     def display_output(active_cell):
         return str(active_cell)
+
+    # -----------------------------------------------------------------------------
+    @callback(
+        Output({"type": "html-show", "id": MATCH}, "children"),
+        Input({"type": "table-content", "id": MATCH}, "active_cell"),
+        prevent_initial_call=True,
+    )
+    def html_show(active_cell):
+        content = html.Div(
+            [
+                dcc.Dropdown(["Alert", "Graph"], id={"type": "table-dropdown", "id": f"{id}"}),
+                html.Div(
+                    id={"type": "html-show-drop", "id": f"{id}"},
+                    children=[],
+                ),
+            ]
+        )
+        return content
+
+    # -----------------------------------------------------------------------------------
+    @callback(
+        Output({"type": "html-show-drop", "id": MATCH}, "children"),
+        Input({"type": "table-dropdown", "id": MATCH}, "value"),
+        prevent_initial_call=True,
+    )
+    def html_show_drop(active_cell):
+        content = html.Div(
+            [
+                # dbc.Alert(id={"type": "table-alert_drop", "id": f"{id}"}, children=str(active_cell)),
+                Milkproduction.alerttest,
+            ]
+        )
+        return content
