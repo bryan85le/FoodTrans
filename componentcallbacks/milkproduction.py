@@ -36,7 +36,12 @@ class Milkproduction(Container):
     """
 
     class ids:
-        table = lambda aio_id: {"component": "tbl-content", "aio_id": aio_id}
+        table = lambda aio_id: {"type": "alltbl-table", "aio_id": aio_id}
+        alert = lambda aio_id: {"type": "tbl-alert", "aio_id": aio_id}
+        htmlshow = lambda aio_id: {"type": "tbl-html-show", "aio_id": aio_id}
+        dropdown = lambda aio_id: {"type": "tbl-dropdown", "aio_id": aio_id}
+        htmldropdown = lambda aio_id: {"type": "tbl-html-dropdown", "aio_id": aio_id}
+        alert1 = lambda aio_id: {"type": "tbl-alert1", "aio_id": aio_id}
 
     ids = ids
 
@@ -52,11 +57,16 @@ class Milkproduction(Container):
 
         super().__init__(
             id=id,
-            children=self.milkproduction_report(id),
+            children=self.milkproduction_report(),
         )
 
-    # Create layout for Fertilityy Report
-    def milkproduction_report(self, id) -> dbc.Card:
+    """
+    Description:
+        1. Milk production content
+    
+    """
+
+    def milkproduction_report(self) -> dbc.Card:
         imagestyle = {"width": "8rem"}
         return [
             dbc.Card(
@@ -72,6 +82,12 @@ class Milkproduction(Container):
             ),
         ]
 
+    """
+    Description:
+        1. Feed for a table
+    
+    """
+
     @callback(Output("dynamic-dropdown-container-div", "children"), Input("global-data", "data"))
     def milklastsessiontable(data):
         df = pd.DataFrame.from_dict(data)
@@ -80,62 +96,68 @@ class Milkproduction(Container):
         df.to_dict("records")
 
         patched_children = Patch()
-        content = html.Div(
-            [
-                dash_table.DataTable(id={"type": "table-content", "id": f"{id}"}, data=df.to_dict("records")),
-                dbc.Alert(id={"type": "table-alert", "id": f"{id}"}),
-                html.Div(
-                    id={"type": "html-show", "id": f"{id}"},
-                    children=[],
-                ),
-            ]
-        )
 
-        patched_children.append(content)
+        patched_children.append(
+            html.Div(
+                [
+                    dash_table.DataTable(id=Milkproduction.ids.table(f"{id}"), data=df.to_dict("records")),
+                    dbc.Alert(id=Milkproduction.ids.alert(f"{id}")),
+                    html.Div(
+                        id=Milkproduction.ids.htmlshow(f"{id}"),
+                        children=[],
+                    ),
+                ]
+            )
+        )
         return patched_children
 
+    """
+    Description:
+        1. Show a detail information of table cell
+    
+    """
+
     @callback(
-        Output({"type": "table-alert", "id": MATCH}, "children"),
-        Input({"type": "table-content", "id": MATCH}, "active_cell"),
+        Output(ids.alert(MATCH), "children"),
+        Input(ids.table(MATCH), "active_cell"),
     )
     def display_output(active_cell):
         return str(active_cell)
 
-    # -----------------------------------------------------------------------------
+    """
+    Description:
+        1. Show a detail information of table cell
+    
+    """
+
     @callback(
-        Output({"type": "html-show", "id": MATCH}, "children"),
-        Input({"type": "table-content", "id": MATCH}, "active_cell"),
+        Output(ids.htmlshow(MATCH), "children"),
+        Input(ids.table(MATCH), "active_cell"),
         prevent_initial_call=True,
     )
     def html_show(active_cell):
-        content = html.Div(
+        return html.Div(
             [
-                dcc.Dropdown(["Alert", "Graph"], id={"type": "table-dropdown", "id": f"{id}"}),
+                dcc.Dropdown(["Alert", "Graph"], id=Milkproduction.ids.dropdown(f"{id}")),
                 html.Div(
-                    id={"type": "html-show-drop", "id": f"{id}"},
-                    children=[],
+                    id=Milkproduction.ids.htmldropdown(f"{id}"),
                 ),
             ]
         )
-        return content
 
-    # -----------------------------------------------------------------------------------
+    """
+    Description:
+        1. Show a detail information of table cell
+    
+    """
 
-    def alert(self) -> dbc.Alert:
-        return dbc.Alert(id={"type": "table-alert_drop", "id": f"{id}"}, children="THOI")
-
-    alerttest = dbc.Alert(id={"type": "table-alert_drop", "id": f"{id}"}, children="Helllo")
+    def myfunc() -> dbc.Alert:
+        return dbc.Alert(id=Milkproduction.ids.alert1(f"{id}"), children="Hellllo")
 
     @callback(
-        Output({"type": "html-show-drop", "id": MATCH}, "children"),
-        Input({"type": "table-dropdown", "id": MATCH}, "value"),
+        Output(ids.htmldropdown(MATCH), "children"),
+        Input(ids.dropdown(MATCH), "value"),
         prevent_initial_call=True,
     )
-    def html_show_drop(active_cell):
-        value = "Hello"
-        content = html.Div(
-            [
-                Milkproduction.alert(),
-            ]
-        )
-        return content
+    def html_show_drop(value):
+        return Milkproduction.myfunc()
