@@ -130,12 +130,7 @@ class Milkproduction(Container):
     
     """
 
-    @callback(
-        Output(ids.htmlshow(MATCH), "children"),
-        Input(ids.table(MATCH), "active_cell"),
-        prevent_initial_call=True,
-    )
-    def html_show(active_cell):
+    def showtdropdown() -> html.Div:
         return html.Div(
             [
                 dcc.Dropdown(["Alert", "Graph"], id=Milkproduction.ids.dropdown(f"{id}")),
@@ -145,14 +140,23 @@ class Milkproduction(Container):
             ]
         )
 
+    @callback(
+        Output(ids.htmlshow(MATCH), "children"),
+        Input(ids.table(MATCH), "active_cell"),
+        prevent_initial_call=True,
+    )
+    def html_show(active_cell):
+        return Milkproduction.showtdropdown()
+
     """
     Description:
         1. Show a detail information of table cell
     
+
     """
 
-    def myfunc() -> dbc.Alert:
-        return dbc.Alert(id=Milkproduction.ids.alert1(f"{id}"), children="Hellllo")
+    def showtablecell() -> html.Div:
+        return [tlbContent(title="Hello Viet nam"), tlbContent(title="Hello Viet nam Muon nam")]
 
     @callback(
         Output(ids.htmldropdown(MATCH), "children"),
@@ -160,4 +164,4 @@ class Milkproduction(Container):
         prevent_initial_call=True,
     )
     def html_show_drop(value):
-        return Milkproduction.myfunc()
+        return Milkproduction.showtablecell()

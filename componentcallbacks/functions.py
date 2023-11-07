@@ -59,7 +59,8 @@ class tlbContent(html.Div):
                                 ],
                                 align="flex-end",
                                 justify="center",
-                            )
+                            ), align="center"
+
                         ),
                     ],
                 ),
